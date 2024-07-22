@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Dashboard from "./components/Dashboard";
 import CreateCollaborationPost from "./components/CrerateCollaborationPost";
+import FaqComponent from "./components/FaqComponents";
 
 const App: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const App: React.FC = () => {
             <Route path="/" element={<Dashboard />} />
             <Route path="/create" element={<CreateCollaborationPost />} />
             <Route path="/edit" element={<CreateCollaborationPost />} />
+            <Route path="/faq" element={<FaqComponent />} />
           </Routes>
         </div>
       </div>

@@ -23,8 +23,8 @@ const Navbar: React.FC = () => {
         </button>
       </nav>
       {showModal && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-          <div className="bg-white p-6 rounded-md w-96">
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+          <div className="bg-white p-6 rounded-md w-96 z-60">
             <div className="text-center">
               <h2 className="text-xl font-bold my-4">
                 Are you sure you want to logout from this Account?
