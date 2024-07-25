@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 const faqData = {
   General: [
@@ -219,7 +220,13 @@ const FaqComponent: React.FC = () => {
                   onClick={() => handleQuestionClick(index)}
                 >
                   <h3 className="text-xl font-medium">{item.question}</h3>
-                  <span>{expandedQuestionIndex === index ? "-" : "+"}</span>
+                  <span>
+                    {expandedQuestionIndex === index ? (
+                      <FaChevronUp />
+                    ) : (
+                      <FaChevronDown />
+                    )}
+                  </span>
                 </div>
                 {expandedQuestionIndex === index && (
                   <div className="mt-2 p-4 bg-gray-800 border border-gray-700 rounded">
