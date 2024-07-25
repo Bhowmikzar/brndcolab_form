@@ -35,25 +35,40 @@
 
 //umcomment the below thing for seeing the blogpost
 
+// import React from "react";
+// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+// import InfluencerMarketing from "./components/InfluencerMarketing";
+// import BlogPost1 from "./components/BlogPost1";
+// import BlogPost2 from "./components/BlogPost2";
+// import BlogPost3 from "./components/BlogPost3";
+
+// const App: React.FC = () => {
+//   return (
+//     <Router>
+//       <div className="App">
+//         <Routes>
+//           <Route path="/" element={<InfluencerMarketing />} />
+//           <Route path="/blog-post-1" element={<BlogPost1 />} />
+//           <Route path="/blog-post-2" element={<BlogPost2 />} />
+//           <Route path="/blog-post-3" element={<BlogPost3 />} />
+//         </Routes>
+//       </div>
+//     </Router>
+//   );
+// };
+
+// export default App;
+
+//umcomment the below thing for seeing the pricing page
+
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import InfluencerMarketing from "./components/InfluencerMarketing";
-import BlogPost1 from "./components/BlogPost1";
-import BlogPost2 from "./components/BlogPost2";
-import BlogPost3 from "./components/BlogPost3";
+import PricingComponent from "./components/PricingComponent";
 
 const App: React.FC = () => {
   return (
-    <Router>
-      <div className="App">
-        <Routes>
-          <Route path="/" element={<InfluencerMarketing />} />
-          <Route path="/blog-post-1" element={<BlogPost1 />} />
-          <Route path="/blog-post-2" element={<BlogPost2 />} />
-          <Route path="/blog-post-3" element={<BlogPost3 />} />
-        </Routes>
-      </div>
-    </Router>
+    <div>
+      <PricingComponent />
+    </div>
   );
 };
 
