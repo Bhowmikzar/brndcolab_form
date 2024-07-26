@@ -23,7 +23,7 @@ const InfluencerMarketing: React.FC = () => {
       </div>
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-white shadow-md rounded-lg overflow-hidden">
+          <div className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-2xl hover:scale-105 transform transition duration-300 ease-in-out">
             <Link to="/blog-post-1">
               <img
                 src="https://via.placeholder.com/400x200"
@@ -38,7 +38,7 @@ const InfluencerMarketing: React.FC = () => {
               </div>
             </Link>
           </div>
-          <div className="bg-white shadow-md rounded-lg overflow-hidden">
+          <div className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-2xl hover:scale-105 transform transition duration-300 ease-in-out">
             <Link to="/blog-post-2">
               <img
                 src="https://via.placeholder.com/400x200"
@@ -53,7 +53,7 @@ const InfluencerMarketing: React.FC = () => {
               </div>
             </Link>
           </div>
-          <div className="bg-white shadow-md rounded-lg overflow-hidden">
+          <div className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-2xl hover:scale-105 transform transition duration-300 ease-in-out">
             <Link to="/blog-post-3">
               <img
                 src="https://via.placeholder.com/400x200"

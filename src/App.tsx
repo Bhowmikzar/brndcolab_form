@@ -61,13 +61,28 @@
 
 //umcomment the below thing for seeing the pricing page
 
+// import React from "react";
+// import PricingComponent from "./components/PricingComponent";
+
+// const App: React.FC = () => {
+//   return (
+//     <div>
+//       <PricingComponent />
+//     </div>
+//   );
+// };
+
+// export default App;
+
+//umcomment the below thing for seeing the brandside dashboard page
+
 import React from "react";
-import PricingComponent from "./components/PricingComponent";
+import BrandDashboard from "./components/BrandDashboard";
 
 const App: React.FC = () => {
   return (
-    <div>
-      <PricingComponent />
+    <div className="App">
+      <BrandDashboard />
     </div>
   );
 };
